@@ -31,7 +31,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Broken::Bundler::VERSION
 
-
   # To demonstrate the problem, make sure hashie is not already
   # installed in your home gem repo, such that
   # "jruby -S bundle install --path=~/.gem" will attempt to install it.
